@@ -1,9 +1,11 @@
-import Register from './components/register/register';
 
-export default function Home() {
+import React from 'react';
+import Profile from './components/profile/profile';
+
+export default function Page() {
   return (
     <main>
-      <Register />
+      <Profile />
     </main>
   );
 }
